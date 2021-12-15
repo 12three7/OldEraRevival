@@ -7,7 +7,7 @@
   "chargeMaxDelay": 0.5,
   "chargeEffects": 7,
   "recoil": 2,
-  "reloadTime": 37,
+  "reloadTime": 80,
   "cooldown": 3,
   "powerUse": 1,
   "shootEffect": "lancerLaserShoot",
