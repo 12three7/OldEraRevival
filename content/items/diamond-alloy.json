@@ -1,0 +1,21 @@
+{    
+    "localizedName": "Diamond Alloy",
+    "Description": "[cyan]A material which is very strong that can be used for advanced turrets, units, and more",
+    "hardness": 14,
+    "radioactivity": 0,
+    "explosiveness": 0,
+    "charge": 10,
+    "cost": 5,
+    "color": "00ECFF",
+    "research": {
+      "parent": "surge-alloy",
+      "requirements": [
+        "copper/10000",
+        "lead/10000",
+        "silicon/6000",
+        "titanium/6000",
+        "thorium/2000",
+        "surge-alloy/1000"
+    ]
+  }
+}
