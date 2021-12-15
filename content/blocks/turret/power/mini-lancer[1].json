@@ -1,0 +1,40 @@
+{
+  "type": "PowerTurret",
+  "localizedName": "Mini Lancer",
+  "description": "Lancer, But mini",
+  "range": 160,
+  "chargeTime": 0.75,
+  "chargeMaxDelay": 0.5,
+  "chargeEffects": 7,
+  "recoil": 2,
+  "reloadTime": 37,
+  "cooldown": 3,
+  "powerUse": 1,
+  "shootEffect": "lancerLaserShoot",
+  "smokeEffect": "lancerLaserShootSmoke",
+  "chargeEffect": "lancerLaserCharge",
+  "chargeBeginEffect": "lancerLaserChargeBegin",
+  "heatColor": "ff0000",
+  "size": 1,
+  "health": 140,
+  "targetAir": false,
+  "targetGround": true,
+  "shootSound": "laser",
+  "shootType": {
+    "type": "LaserBulletType",
+    "colors": [ "A7F8FF", "00B8FF", "FFFFFF" ]
+    "hitEffect": "hitLancer",
+    "hitSize": 4,
+    "lifetime": 16,
+    "drawSize": 200,
+    "collidesAir": false,
+    "length": 173,
+    "damage": 70
+  }
+  "requirements": [
+    { "item": "copper", "amount": 25 },
+    { "item": "lead", "amount": 15 },
+   ],
+  "category": "turret",
+  "research": "arc"
+}
