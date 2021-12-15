@@ -1,1 +1,30 @@
-
+{
+	"localizedName": "Vertical Core",
+	"description": "A large core that is can be a very large storage central like Power, Liquid, And Items. The mechs can break the block with easily, but the range are more closer than gamma",
+	"type": "CoreBlock",
+	"health": 9870,
+	"size": 6,
+	"hasItems": true,
+	"hasLiquid": true,
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"consumes": {
+		"powerBuffered": 100000
+	},
+	"itemCapacity": 21000,
+	"liquidCapacity": 10500,
+	"unitCapModifier": 50,
+    "researchCostMultiplier": 0.1,
+    "unitType": "verticalizer",
+	"requirements": [
+		{ "item": "silicon", "amount": 4200 },
+		{ "item": "lead", "amount": 6000 },
+		{ "item": "titanium", "amount": 4200 },
+		{ "item": "surge-alloy", "amount": 3000 },
+		{ "item": "thorium", "amount": 4900},
+		{ "item": "diamond-alloy", "amount": 1000 }
+	],
+  "category": "effect",
+	"research": "core-nucleus"
+}
