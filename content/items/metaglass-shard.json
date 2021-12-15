@@ -1,0 +1,10 @@
+{    
+    "localizedName": "Metaglass Shards",
+    "Description": "A material shards from derelict structure",
+    "hardness": 5,
+    "radioactivity": 0,
+    "explosiveness": 0,
+    "charge": 0,
+    "cost": 2,
+    "color": "FFFFFF"
+}
