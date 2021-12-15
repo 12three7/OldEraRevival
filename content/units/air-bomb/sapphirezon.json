@@ -1,0 +1,39 @@
+{
+    "localizedName": "Sapphirezon",
+    "description": "The units that can shoot sap bullets with normal damage",
+    "research": "fly-bomber",
+    "flying": true,
+    "speed": 2.5,
+    "health": 540,
+    "itemCapacity": 35,
+    "armor": 2,
+    "lowAltitude": true,
+    "engineOffset": 6,
+    "commandLimit": 8,
+    "buildSpeed": 0.7,
+    "mineSpeed": 4,
+    "mineTier": 2,
+    "hitSize": 9,
+    "range": 75,
+    "weapons": [
+        {
+            "name": "sap-gun-1"
+            "reload": 20,
+            "rotate": true,
+            "bullet": "sapper",
+            "x": 0,
+            "y": 0,
+            "shootSound": "sap",
+            "bullet": {
+                "type": "SapBulletType",
+                "damage": 30,
+                "sapStrength": 0.2,
+                "shootEffect": "shootSmall",
+                "hitColor": "A60021",
+                "length": 75,
+                "width": 0.8,
+                "lifetime": 35
+            }
+        }
+    ]
+}

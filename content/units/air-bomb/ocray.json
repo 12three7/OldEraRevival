@@ -1,0 +1,143 @@
+{
+    "localizedName": "Ocray",
+    "description": "[red]WARNING!!! [white]This unit has very-very strong weapons, can defeat bases with easily",
+    "research": "ripolator",
+    "flying": true,
+    "lowAltitude": true,
+    "payloadCapacity": 16,
+    "speed": 0.7,
+    "health": 20000,
+    "itemCapacity": 400,
+    "armor": 10,
+    "engineOffset": 46,
+    "engineSize": 7,
+    "commandLimit": 8,
+    "buildSpeed": 3.5,
+    "hitSize": 66,
+    "range": 200,
+    "rotateSpeed": 1,
+    "weapons": [
+        {
+            "name": "machine-explosive",
+            "reload": 5,
+            "inaccuracy": 3,
+            "x": 30,
+            "y": 30,
+            "rotate": true,
+            "shootSound": "shoot",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 30,
+                "height": 30,
+                "shootEffect": "shootBig",
+                "lifetime": 50,
+                "speed": 4,
+                "splashDamage": 50,
+                "splashDamageRadius": 20,
+                "hitEffect": "blastExplosion",
+                "despawnEffect": "blastExplosion"
+            }
+        },
+        {
+            "name": "machine-explosive",
+            "reload": 5,
+            "inaccuracy": 3,
+            "x": -30,
+            "y": 30,
+            "rotate": true,
+            "shootSound": "shoot",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 10,
+                "height": 10,
+                "shootEffect": "shootBig",
+                "lifetime": 50,
+                "speed": 4,
+                "splashDamage": 50,
+                "splashDamageRadius": 20,
+                "hitEffect": "blastExplosion",
+                "despawnEffect": "blastExplosion"
+            }
+        },
+        {
+            "name": "machine-explosive",
+            "reload": 5,
+            "inaccuracy": 3,
+            "x": -30,
+            "y": -30,
+            "rotate": true,
+            "shootSound": "shoot",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 10,
+                "height": 10,
+                "shootEffect": "shootBig",
+                "lifetime": 50,
+                "speed": 4,
+                "splashDamage": 50,
+                "splashDamageRadius": 20,
+                "hitEffect": "blastExplosion",
+                "despawnEffect": "blastExplosion"
+            }
+        },
+        {
+            "name": "machine-explosive",
+            "reload": 5,
+            "inaccuracy": 3,
+            "x": 30,
+            "y": -30,
+            "rotate": true,
+            "shootSound": "shoot",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 10,
+                "height": 10,
+                "shootEffect": "shootBig",
+                "lifetime": 50,
+                "speed": 4,
+                "splashDamage": 50,
+                "splashDamageRadius": 20,
+                "hitEffect": "blastExplosion",
+                "despawnEffect": "blastExplosion"
+            }
+        },
+        {
+            "name": "ocray-laser",
+            "reload": 100,
+            "inaccuracy": 0,
+            "x": 0,
+            "y": 20,
+            "rotate": true,
+            "shootSound": "laser",
+            "bullet": {
+                "type": "LaserBulletType",
+                "shootEffect": "lightningShoot",
+                "lifetime": 50,
+                "length": 200,
+                "width": 20,
+                "damage": 140,
+                "hitEffect": "lightningShoot",
+                "colors": [ "FF2000", "FF7A7D", "FFFFFF" ]
+            }
+        },
+        {
+            "name": "ripolator-cannon",
+            "reload": 300,
+            "inaccuracy": 0,
+            "x": 0,
+            "y": 0,
+            "rotate": true,
+            "shootSound": "laserblast",
+            "bullet": {
+                "type": "LaserBulletType",
+                "length": 500,
+                "damage": 1000,
+                "width": 100,
+                "lifetime": 100,
+                "shootEffect": "lancerLaserShoot",
+                "hitEffect": "hitLancer",
+                "colors": [ "79FFD7", "00DB9A", "FFFFFF" ]
+            }
+        }
+    ]
+}

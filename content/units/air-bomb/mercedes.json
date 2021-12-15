@@ -1,0 +1,69 @@
+{
+    "localizedName": "Mercedes",
+    "description": "A units than can heal other units very fast and can land a bomb",
+    "research": "sapphirezon",
+    "flying": true,
+    "lowAltitude": true,
+    "speed": 1.9,
+    "health": 700,
+    "itemCapacity": 70,
+    "armor": 5,
+    "commandLimit": 10,
+    "engineOffset": 10.5,
+    "buildSpeed": 1.2,
+    "mineSpeed": 5,
+    "hitSize": 16.05,
+    "range": 50,
+    "weapons": [
+        {
+            "name": "repair-beam-weapon-center-large",
+            "x": 0,
+            "y": -6,
+            "shootY": 6,
+            "beamWidth": 0.8,
+            "repairSpeed": 2,
+            "bullet": {
+                "maxRange": 130
+            }
+        },
+        {
+            "name": "mercedes-bomb",
+            "x": 0,
+            "y": 0,
+            "shootSound": "plasmadrop",
+            "reload": 200,
+            "bullet": {
+                "sprite": "large-bomb",
+                "width": 110,
+                "height": 110,
+                "maxRange": 30,
+                "ignoreRotation": true,
+                "backColor": "CF00FF",
+                "frontColor": "F7A3FF",
+                "collidesAir": false,
+                "hitShake": 4,
+                "lifetime": 70,
+                "despawnEffect": "greenBomb",
+                "hitEffect": {
+                    "type": "WaveEffect",
+                    "particles": 1,
+                    "sizeFrom": 0,
+                    "sizeTo": 150,
+                    "strokeFrom": 1,
+                    "strokeTo": 5,
+                    "lifetime": 100,
+                    "colorFrom": "CF00FF",
+                    "colorTo": "F7A3FF"
+                },
+                "spin": 2,
+                "shrinkX": 0.7,
+                "shrinkY": 0.7,
+                "speed": 0,
+                "collides": false,
+                "splashDamage": 560,
+                "splashDamageRadius": 150,
+            }
+        }
+    ]
+}
+    

@@ -1,0 +1,67 @@
+{
+    "localizedName": "Ripolator",
+    "description": "[red]WARNING!!! [white]This units can shoot v5 slow antumbra missiles and reactor cannon",
+    "research": "mercedes",
+    "flying": true,
+    "speed": 1.2,
+    "health": 9000,
+    "itemCapacity": 110,
+    "armor": 7,
+    "lowAltitude": true,
+    "payloadCapacity": 7,
+    "engineOffset": 21,
+    "engineSize": 5.3,
+    "commandLimit": 8,
+    "mineTier": 4,
+    "hitSize": 46,
+    "range": 200,
+    "weapons": [
+        {
+            "name": "missile-mounter",
+            "x": 0,
+            "y": 0,
+            "reload": 50,
+            "shots": 12,
+            "spacing": 5,
+            "inaccuracy": 20,
+            "rotate": false,
+            "shootSound": "missle",
+            "bullet": {
+                "type": "MissileBulletType",
+                "width": 16,
+                "height": 16,
+                "lifetime": 250,
+                "homingPower": 0.05,
+                "splashDamage": 50,
+                "homingRange": 100,
+                "splashDamageRadius": 20,
+                "hitEffect": "blastExplosion",
+                "despawnEffect": "blastExplosion",
+                "frontColor": "FF9E00",
+                "backColor": "FF8800"
+             }
+        },
+        {
+            "name": "ripolator-cannon",
+            "x": 0,
+            "y": -20,
+            "reload": 600,
+            "rotate": true,
+            "shootSound": "artillery",
+            "bullet": {
+                "width": 30,
+                "height": 30,
+                "type": "ArtilleryBulletType",
+                "lifetime": 150,
+                "speed": 5,
+                "hitEffect": "reactorExplosion",
+                "splashDamage": 1001,
+                "splashDamageRadius": 175,
+                "collidesAir": true
+            }
+        }
+    ]
+}
+        
+            
+            
