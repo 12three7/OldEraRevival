@@ -1,0 +1,93 @@
+{
+    "localizedName": "Electric Laser Gun",
+    "description": "[cyan]A railgun that shoots very hurt sound wave until the building can destroyed with just sound.",
+	"type": "ItemTurret",
+	"size": 5,
+	"health": 4000,
+	"maxAmmo": 15,
+	"ammoPerShot" : 2,
+	"reloadTime": 200,
+	"range": 600,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	"recoilAmount" : 15,
+	"shootShake" : 12,
+	"inaccuracy": 0,
+	"restitution" : 0.1,
+	"rotateSpeed": 4,
+	"chargeTime": 100,
+	"chargeEffect": {
+	    "type": "MultiEffect",
+	    "lifetime": 100,
+	    "effects": [
+	        {
+	            "type": "WaveEffect",
+	            "lifetime": 100,
+                "sides": 3,
+                "sizeFrom": 150,
+                "sizeTo": 10,
+                "strokeFrom": 4,
+                "strokeTo": 0,
+                "colorFrom": "5F90EA",
+                "colorTo": "4B549E"
+            },
+            {
+                "type": "WaveEffect",
+                "lifetime": 100,
+                "sizeFrom": 200,
+                "sizeTo": 60,
+                "strokeFrom": 4,
+                "strokeTo": 0,
+                "colorFrom": "5F90EA",
+                "colorTo": "4B549E"
+            }
+        ]
+    },
+	"shootSound" : "laserblast",
+	"shootCharge": "lasercharge",
+
+	"ammoTypes": {
+		"diamond-alloy": {
+			"type": "LaserBulletType",
+			"damage": 3000,
+			"status": "unmoving",
+			"statusDuration": 60,
+			"length": 650,
+			"width": 75,
+			"healPercent": 100,
+			"pierce": true,
+			"buildingDamageMultiplier": 0.5,
+			"lightningDamage": 189,
+			"lightningLength": 5,
+			"lightningLengthRand": 25,
+			"lightningDelay": 1.1,
+			"lightningAngleRand": 30,
+			"lightningSpacing": 50,
+		    "colorFrom": "5F90EA",
+            "colorTo": "4B549E"
+			"hitEffect" : {
+                "type": "WaveEffect",
+                "lifetime": 40,
+                "sizeFrom": 0,
+                "sizeTo": 104,
+                "strokeFrom": 4,
+                "strokeTo": 0,
+                "colorFrom": "5F90EA",
+                "colorTo": "4B549E"
+            }
+        }
+    },
+	"consumes" : {
+		"power": 122
+	},
+	"requirements": [
+        "thorium/1500",
+        "diamond-alloy/300",
+        "silicon/1000",
+        "titanium/3000",
+        "surge-alloy/700",
+        "metaglass/1200"
+	],
+	"category": "turret",
+	"research": "foreshadow"
+}
