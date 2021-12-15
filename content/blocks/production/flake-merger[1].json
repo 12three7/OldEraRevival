@@ -1,0 +1,35 @@
+{
+    "localizedName": "Flake Merger",
+    "description": "This block used for making metaglass from metaglass shard",
+    "size": 2,
+    "type": "GenericCrafter",
+    "drawer": {
+        "type": "DrawSmelter",
+        "flameColor": "FFB05C",
+    },
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 30,
+    "craftEffect": "smeltsmoke",
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.07,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 1.3,
+        "items": {
+            "items": [
+                "metaglass-shard/4"
+            ]
+        }
+    },
+    "requirements": [
+        "copper/60",
+        "lead/90",
+        "graphite/30",
+        "silicon/30"
+    ]
+    "category": "crafting",
+    "research": "klin",
+    "outputItem": "metaglass/1"
+}

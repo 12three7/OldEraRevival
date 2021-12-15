@@ -1,0 +1,51 @@
+{	
+    "localizedName": "Crystallizer",
+    "description": "[pink]Compresses every resources to get stongest material ever.",
+    "size": 3,
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "00B7FF"
+	},
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 120,
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 15,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 4,
+		"items": {
+			"items": [
+                "copper/4",
+                "lead/5",
+                "titanium/3",
+                "thorium/2",
+                "surge-alloy/1",
+                "silicon/2"
+			]
+		}
+	},
+	"requirements": [
+        "copper/400",
+        "lead/450",
+        "titanium/300",
+        "thorium/200",
+        "surge-alloy/100",
+        "silicon/400"
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"outputItem": "diamond-alloy/1"
+}
