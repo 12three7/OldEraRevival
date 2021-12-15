@@ -1,0 +1,33 @@
+{
+    "localizedName": "Fly Bomber",
+    "description": "they just like crawler. But, they're more dangerous and annoying",
+    "research": "crawler",
+    "flying": true,
+    "speed": 3.55,
+    "health": 200,
+    "lowAltitude": true,
+    "itemCapacity": 30,
+    "commandLimit": 8,
+    "hitSize": 8,
+    "range": 40,
+    "weapons": [
+        {
+            "name": "crawler-bomb",
+            "shootOnDeath": true,
+            "reload": 24,
+            "shootCone": 1,
+            "shootSound": "explosion",
+            "bullet": {
+                "hitEffect": "pulverize",
+                "lifetime": 10,
+                "speed": 1,
+                "splashDamageRadius": 55,
+                "splashDamage": 90,
+                "instantDisappear": true,
+                "killShooter": true,
+                "collidesAir": true
+            }
+        }
+    ]
+}
+    
