@@ -1,0 +1,17 @@
+{
+  "type": "UnitFactory"
+  "size" 2,
+  "consumes": {
+    "power": 1.2
+  {
+  "plans": [
+    {
+      "unit": "fly-bomber",
+      "time": 600,
+      "requirements": [
+        "silicon/15",
+        "coal/20"
+      ]
+    }
+  ]
+}
