@@ -1,0 +1,29 @@
+{
+  "localizedName": "Additive Upgrader",
+  "description": "To upgrade units produced from Revival Factory",
+  "type": "Reconstructor",
+  "size": 3,
+  "constructTime": 600,
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+        "silicon/60",
+        "titanium/40",
+        "metaglass/40",
+        "thorium/10"
+      ]
+    }
+  },
+  "upgrades": [
+    ["sapphirezon", "mercedes"]
+  ],
+  "requirement": [
+    "copper/350",
+    "lead/400",
+    "silicon/260",
+    "thorium/120",
+  ],
+  "category": "units",
+  "research": "multiplicative-reconstructor"
+}
