@@ -1,0 +1,41 @@
+{    
+    "type": "ForceProjector",
+    "description": "[cyan]a Very Powerful Hexagon Shields that can protect very most bullets, but not laser. This shields is very resistance",
+    "localizedName": "Vertical Projector",
+    "health": 3800,
+    "shieldHealth": 10000
+    "size": 4,
+    "liquidCapacity": 30,
+    "itemCapacity": 30,
+    "hasPower": true,
+    "canOverdrive": true,
+    "phaseUseTime": 370,
+    "phaseShieldBoost": 24000,
+    "phaseRadiusBoost": 125,
+    "solid": true,
+    "radius": 125,
+    "cooldownNormal": 2,
+    "cooldownLiquid": 1.1,
+    "cooldownBrokenBase": 2.9,
+    "consumes": {
+      "power": 36,
+      "items": {
+        "items": [
+          "diamond-alloy/1",
+          "phase-fabric/10"
+        ],
+        "booster": true,
+    	  "optional": true
+      }
+    },
+    "requirements": [
+        "phase-fabric/800",
+        "diamond-alloy/700",
+        "plastanium/730",
+        "titanium/600",
+        "silicon/1230",
+        "surge-alloy/830"
+    ],
+    "category": "effect",
+    "research": "forceProjector"
+}
