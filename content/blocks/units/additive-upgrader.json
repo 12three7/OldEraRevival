@@ -1,0 +1,26 @@
+{
+  "localizedName": "Additive Upgrader",
+  "description": "To upgrade units produced from Revival Factory",
+  "type": "Reconstructor",
+  "size": 3,
+  "constructTime": 600,
+  "consumes": {
+    "power": 1.4,
+    "items": {
+      "items": [
+        "silicon/40",
+        "graphite/40"
+      ]
+    }
+  },
+  "upgrades": [
+    ["fly-bomber", "sapphirezon"]
+  ],
+  "requirement": [
+    "copper/120",
+    "lead/120",
+    "silicon/60"
+  ],
+  "category": "units",
+  "research": "additive-reconstructor"
+}
