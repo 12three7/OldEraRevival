@@ -1,0 +1,30 @@
+{
+  "localizedName": "Exponential Upgrader",
+  "description": "To upgrade units produced from Revival Factory",
+  "type": "Reconstructor",
+  "size": 7,
+  "constructTime": 7200,
+  "consumes": {
+    "power": 4
+    "items": {
+      "items": [
+        "silicon/750",
+        "titanium/650",
+        "plastanium/650",
+        "thorium/300"
+      ]
+    }
+  },
+  "upgrades": [
+    ["mercedes", "ripolator"]
+  ],
+  "requirement": [
+    "copper/1500",
+    "lead/1200",
+    "silicon/750",
+    "plastanium/650",
+    "thorium/120",
+  ],
+  "category": "units",
+  "research": "exponential-reconstructor"
+}
