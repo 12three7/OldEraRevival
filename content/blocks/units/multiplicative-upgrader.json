@@ -1,5 +1,5 @@
 {
-  "localizedName": "Additive Upgrader",
+  "localizedName": "Multiplicative Upgrader",
   "description": "To upgrade units produced from Revival Factory",
   "type": "Reconstructor",
   "size": 3,
