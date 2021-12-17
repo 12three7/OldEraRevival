@@ -2,8 +2,8 @@
   "localizedName": "Multiplicative Upgrader",
   "description": "To upgrade units produced from Revival Factory",
   "type": "Reconstructor",
-  "size": 3,
-  "constructTime": 600,
+  "size": 5,
+  "constructTime": 1200,
   "consumes": {
     "power": 3,
     "items": {
