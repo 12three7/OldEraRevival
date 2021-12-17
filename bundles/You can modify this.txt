@@ -1,2 +1,2 @@
-# You can modify this dir, for the sake of translation of this mod, you can also make this file filled with another language because this is translation
+# You can modify this dir, for the sake of translation of this mod
 - ExplerHD
