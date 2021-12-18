@@ -1,0 +1,26 @@
+{
+  "localizedName": "Advanced Projector",
+  "description": "A advanced overdrive projector that can boosts blocks speed more way faster",
+  "type": "OverdriveProjector",
+  "size": 4,
+  "powerUse": 10,
+  "speedBoost": 4,
+  "useTime": 300,
+  "hasBoost": false,
+  "consumes": {
+    "items": {
+      "items": [
+        "diamond-alloy/1"
+      ]
+    }
+  },
+  "requirements": [
+    "lead/750",
+    "silicon/400",
+    "plastanium/200",
+    "surge-alloy/100",
+    "diamond-alloy/10
+  ],
+  "category": "effect",
+  "research": "overdrive-dome"
+}
