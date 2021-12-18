@@ -1,0 +1,37 @@
+{
+  "localizedName": "Tetrative Upgrader",
+  "description": "To upgrade units produced from Revival Factory",
+  "type": "Reconstructor",
+  "size": 9,
+  "constructTime": 18000,
+  "consumes": {
+    "power": 25,
+    "items": {
+      "items": [
+        "silicon/1000",
+        "phase-fabric/350",
+        "plastanium/750",
+        "surge-alloy/500,
+        "thorium/600"
+      ]
+    },
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 3
+    }
+  },
+  "upgrades": [
+    ["ripolator", "ocray"]
+  ],
+  "requirement": [
+    "copper/1500",
+    "lead/1200",
+    "silicon/750",
+    "plastanium/650",
+    "surge-alloy/500",
+    "phase-fabric/350",
+    "thorium/400"
+  ],
+  "category": "units",
+  "research": "exponential-reconstructor"
+}
