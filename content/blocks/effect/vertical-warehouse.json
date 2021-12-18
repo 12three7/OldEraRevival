@@ -1,0 +1,17 @@
+{
+  "localizedName": "Vertical Warehouse",
+  "description": "A storage block that can handle very much items, and of course, power",
+  "type": "StorageBlock",
+  "size": 5,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 5000,
+  "outputsPower": true,
+  "consumesPower": true,
+  "consumes": {
+    "powerBuffered": 50000
+  },
+  "category": "effect",
+  "research": "vault"
+}
+  
