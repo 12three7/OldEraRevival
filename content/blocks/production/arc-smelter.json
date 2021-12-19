@@ -1,0 +1,36 @@
+{
+    "localizedName": "Arc Smelter",
+    "description": "This block used to mix copper and lead into dense alloy",
+    "size": 2,
+    "type": "GenericCrafter",
+    "drawer": {
+        "type": "DrawSmelter",
+        "flameColor": "FFB05C",
+    },
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 60,
+    "craftEffect": "smeltsmoke",
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.07,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 0.5,
+        "items": {
+            "items": [
+                "copper/1",
+                "lead/1"
+            ]
+        }
+    },
+    "requirements": [
+        "copper/60",
+        "lead/90",
+        "graphite/30",
+        "silicon/30"
+    ]
+    "category": "crafting",
+    "research": "silicon-smelter",
+    "outputItem": "dense-alloy/1"
+}
