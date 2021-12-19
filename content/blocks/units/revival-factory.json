@@ -2,7 +2,7 @@
   "localizedName": "Revival Factory",
   "description": "This factory can make a new abandoned units like flying bomb class.",
   "type": "UnitFactory",
-  "size" 2,
+  "size": 3,
   "consumes": {
     "power": 1.2
   },
