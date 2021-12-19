@@ -1,0 +1,23 @@
+{
+  "localzedName": "Lava Generator",
+  "description": " Turns lava heat into power.",
+  "size": 3,
+  "type": "SingleTypeGenerator",
+  "consumes": {
+    "power": 5,
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.3
+    }
+  },
+  "powerProduction": 18,
+  "hasLiquid": true,
+  "requirements": [
+    "copper/250",
+    "lead/250",
+    "titanium/100",
+    "thorium/50"
+  ],
+  "category": "power",
+  "research": "differential-generator"
+}
