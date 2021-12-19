@@ -1,0 +1,19 @@
+{    
+
+    "localizedName": "Dense Alloy",
+
+    "Description": "A material from cooper and lead",
+
+    "hardness": 7,
+
+    "radioactivity": 0,
+
+    "explosiveness": 0,
+
+    "charge": 0.5,
+
+    "cost": 2,
+
+    "color": "CACACA"
+
+}
