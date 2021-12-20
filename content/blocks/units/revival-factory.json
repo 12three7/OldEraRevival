@@ -22,5 +22,6 @@
     "silicon/40",
     "titanium/20"
   ],
+  "category": "units",
   "research": "naval-factory"
 }
