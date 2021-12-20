@@ -12,7 +12,7 @@
         "silicon/750",
         "titanium/650",
         "plastanium/650",
-        "thorium/300"
+        "dense-alloy/300"
       ]
     },
     "liquid": {
@@ -28,7 +28,7 @@
     "lead/1200",
     "silicon/750",
     "plastanium/650",
-    "thorium/120",
+    "dense-alloy120",
   ],
   "category": "units",
   "research": "exponential-reconstructor"
