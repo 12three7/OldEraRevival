@@ -12,7 +12,7 @@
         "phase-fabric/350",
         "plastanium/750",
         "surge-alloy/500",
-        "thorium/600"
+        "dense-alloy/600"
       ]
     },
     "liquid": {
@@ -23,14 +23,14 @@
   "upgrades": [
     ["ripolator", "ocray"]
   ],
-  "requirement": [
+  "requirements": [
     "copper/1500",
     "lead/1200",
     "silicon/750",
     "plastanium/650",
     "surge-alloy/500",
     "phase-fabric/350",
-    "thorium/400"
+    "dense-alloy/400"
   ],
   "category": "units",
   "research": "exponential-reconstructor"
