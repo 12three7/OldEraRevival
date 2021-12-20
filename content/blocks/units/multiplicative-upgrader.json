@@ -11,18 +11,18 @@
         "silicon/60",
         "titanium/40",
         "metaglass/40",
-        "thorium/10"
+        "dense-alloy/10"
       ]
     }
   },
   "upgrades": [
     ["sapphirezon", "mercedes"]
   ],
-  "requirement": [
+  "requirements": [
     "copper/350",
     "lead/400",
     "silicon/260",
-    "thorium/120",
+    "dense-alloy/120",
   ],
   "category": "units",
   "research": "multiplicative-reconstructor"
