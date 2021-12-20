@@ -16,7 +16,7 @@
   "upgrades": [
     ["fly-bomber", "sapphirezon"]
   ],
-  "requirement": [
+  "requirements": [
     "copper/120",
     "lead/120",
     "silicon/60"
