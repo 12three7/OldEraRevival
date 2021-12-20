@@ -4,6 +4,7 @@
   "type": "Reconstructor",
   "size": 7,
   "constructTime": 7200,
+  "liquidCapacity": 60,
   "consumes": {
     "power": 13,
     "items": {
@@ -22,7 +23,7 @@
   "upgrades": [
     ["mercedes", "ripolator"]
   ],
-  "requirement": [
+  "requirements": [
     "copper/1500",
     "lead/1200",
     "silicon/750",
