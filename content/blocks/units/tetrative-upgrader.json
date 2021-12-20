@@ -3,6 +3,7 @@
   "description": "To upgrade units produced from Revival Factory",
   "type": "Reconstructor",
   "size": 9,
+  "liquidCapacity": 180,
   "constructTime": 18000,
   "consumes": {
     "power": 25,
