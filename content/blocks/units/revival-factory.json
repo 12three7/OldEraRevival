@@ -15,5 +15,12 @@
         "coal/20"
       ]
     }
-  ]
+  ],
+  "requirements": [
+    "copper/70",
+    "lead/70",
+    "silicon/40",
+    "titanium/20"
+  ],
+  "research": "naval-factory"
 }
