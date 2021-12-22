@@ -11,6 +11,12 @@
   "consumes": {
     "powerBuffered": 50000
   },
+  "requirements": [
+    "titanium/300",
+    "silicon/100",
+    "thorium/300",
+    "surge-alloy/100"
+  ],
   "category": "effect",
   "research": "vault"
 }
