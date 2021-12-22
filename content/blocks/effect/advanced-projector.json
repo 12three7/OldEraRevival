@@ -4,6 +4,7 @@
   "type": "OverdriveProjector",
   "size": 4,
   "powerUse": 10,
+  "range": 480,
   "speedBoost": 4,
   "useTime": 300,
   "hasBoost": false,
