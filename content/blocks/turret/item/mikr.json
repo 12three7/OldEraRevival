@@ -1,0 +1,36 @@
+{
+  "localizedName": "Mikr",
+  "description": "A turrets that can use both bullets projectiles and lasers",
+  "size": 1,
+  "type": "ItemTurrets",
+  "spread": 4,
+  "shots": 2,
+  "shootCone": 15
+  "reload": 20,
+  "range": 110,
+  "restitution": 0.03,
+  "alternate": true,
+  "rotateSpeed": 10,
+  "inaccuracy": 2,
+  "ammo": {
+    "copper": "standardCopper",
+    "graphite": "standardDense",
+    "pyratite": "standardIncendiary",
+    "silicon": "standardHoming",
+    "dense-alloy": {
+      "type": "LaserBulletType",
+      "damage": 10,
+      "length": 110,
+      "hitSize": 4,
+      "drawSize": 400,
+      "colors": [ "F9FF00", "FCFF82", "FFFFFF" ]
+    }
+  },
+  "requirements": [
+    "dense-alloy/10",
+    "copper/50",
+    "lead/50
+  ],
+  "category": "turret",
+  "research": "arc"
+}
