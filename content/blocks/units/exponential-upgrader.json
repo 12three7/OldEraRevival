@@ -28,7 +28,7 @@
     "lead/1200",
     "silicon/750",
     "plastanium/650",
-    "dense-alloy120",
+    "dense-alloy/120",
   ],
   "category": "units",
   "research": "exponential-reconstructor"
