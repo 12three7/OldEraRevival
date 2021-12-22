@@ -1,6 +1,6 @@
 {
   "localzedName": "Lava Generator",
-  "description": " Turns lava heat into power.",
+  "description": "Turns lava heat into power.",
   "size": 3,
   "type": "SingleTypeGenerator",
   "consumes": {
