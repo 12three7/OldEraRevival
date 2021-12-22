@@ -1,2 +1,6 @@
 # Old-Era-Revival
-A mindustry mod that added soms unit category, turrets, soundtrack, etc
+A mindustry mod that added some unit category, turrets, soundtrack, and etc.
+Made By ExplerHD And 1237 / 12fd1m
+
+Btw check bundles file and read it, something that you need maybe
+Join my discord server: https://discord.gg/tfC7cEpe9J
