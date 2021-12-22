@@ -4,7 +4,6 @@
   "size": 3,
   "type": "SingleTypeGenerator",
   "consumes": {
-    "power": 5,
     "liquid": {
       "liquid": "slag",
       "amount": 0.3
