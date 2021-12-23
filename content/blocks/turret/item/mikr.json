@@ -5,13 +5,13 @@
   "type": "ItemTurrets",
   "spread": 4,
   "shots": 2,
-  "shootCone": 15
-  "reload": 20,
+  "shootCone": 15,
+  "reload": 10,
   "range": 110,
   "restitution": 0.03,
   "alternate": true,
   "rotateSpeed": 10,
-  "inaccuracy": 2,
+  "inaccuracy": 0,
   "ammo": {
     "copper": "standardCopper",
     "graphite": "standardDense",
