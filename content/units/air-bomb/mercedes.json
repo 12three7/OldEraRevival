@@ -16,10 +16,10 @@
     "range": 50,
     "weapons": [
         {
-            "name": "repair-beam-weapon-center-large",
+            "name": "mercedes-repair-beam",
             "x": 0,
-            "y": -6,
-            "shootY": 6,
+            "y": -3,
+            "shootY": 3,
             "beamWidth": 0.8,
             "repairSpeed": 2,
             "bullet": {
