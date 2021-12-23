@@ -2,7 +2,7 @@
   "localizedName": "Mikr",
   "description": "A turrets that can use both bullets projectiles and lasers",
   "size": 1,
-  "type": "ItemTurrets",
+  "type": "ItemTurret",
   "spread": 4,
   "shots": 2,
   "shootCone": 15,
