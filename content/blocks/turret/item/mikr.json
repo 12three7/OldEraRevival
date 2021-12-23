@@ -12,7 +12,7 @@
   "alternate": true,
   "rotateSpeed": 10,
   "inaccuracy": 0,
-  "ammo": {
+  "ammoTypes": {
     "copper": "standardCopper",
     "graphite": "standardDense",
     "pyratite": "standardIncendiary",
