@@ -1,10 +1,9 @@
 {
     "localizedName": "Ocray",
-    "description": "[red]WARNING!!! [white]This unit has very-very strong weapons, can defeat bases with easily",
+    "description": "[red]WARNING!!! [white]This unit has very-very strong weapons, can defeat bases and tier 5 units with easily",
     "research": "ripolator",
     "flying": true,
     "lowAltitude": true,
-    "payloadCapacity": 16,
     "speed": 0.7,
     "health": 20000,
     "itemCapacity": 400,
@@ -27,8 +26,8 @@
             "shootSound": "shoot",
             "bullet": {
                 "type": "BasicBulletType",
-                "width": 30,
-                "height": 30,
+                "width": 10,
+                "height": 10,
                 "shootEffect": "shootBig",
                 "lifetime": 50,
                 "speed": 4,
@@ -127,6 +126,7 @@
             "x": 0,
             "y": 0,
             "rotate": true,
+            "shootY": 23,
             "shootSound": "laserblast",
             "bullet": {
                 "type": "LaserBulletType",
