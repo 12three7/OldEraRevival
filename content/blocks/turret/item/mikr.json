@@ -29,7 +29,7 @@
   "requirements": [
     "dense-alloy/10",
     "copper/50",
-    "lead/50
+    "lead/50"
   ],
   "category": "turret",
   "research": "arc"
