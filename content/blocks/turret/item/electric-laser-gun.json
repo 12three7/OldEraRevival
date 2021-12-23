@@ -1,6 +1,6 @@
 {
     "localizedName": "Electric Laser Gun",
-    "description": "[cyan]A railgun that shoots very hurt sound wave until the building can destroyed with just sound.",
+    "description": "[cyan]A railgun that shoots very hurt laser.",
 	"type": "ItemTurret",
 	"size": 5,
 	"health": 4000,
@@ -12,7 +12,7 @@
 	"targetGround" : true, 
 	"recoilAmount" : 15,
 	"shootShake" : 12,
-	"inaccuracy": 0,
+	"heatColor": "ffad85",
 	"restitution" : 0.1,
 	"rotateSpeed": 4,
 	"chargeTime": 100,
