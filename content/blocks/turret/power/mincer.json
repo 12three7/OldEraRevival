@@ -1,6 +1,6 @@
 {
   "type": "PowerTurret",
-  "localizedName": "Mini Lancer",
+  "localizedName": "Mincer",
   "description": "Lancer, But mini",
   "range": 110,
   "chargeTime": 40,
@@ -36,5 +36,5 @@
     { "item": "lead", "amount": 15 },
    ],
   "category": "turret",
-  "research": "arc"
+  "research": "lancer"
 }
