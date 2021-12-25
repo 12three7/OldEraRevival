@@ -2,7 +2,7 @@
 	"localizedName": "Spliterity",
 	"description": "This Mid-Game OP turrets that can split onto a piece of bullets, continuously until 5 times",
 	"size": 3,
-	"health": 1234,
+	"health": 1237,
 	"type": "PowerTurret",
 	"powerUse": 10,
 	"reloadTime": 300,
@@ -45,7 +45,7 @@
 			"splashDamage": 250,
 			"fragBullets": 4,
 			"fragBullet": {
-			    "type": "MissileBulletType",
+          "type": "MissileBulletType",
 			    "sprite": "missile-large",
 			    "width": 3,
 			    "height": 3,
@@ -53,11 +53,11 @@
 			    "targetGround": true,
 			    "trailColor": "00AEFF",
 			    "frontColor": "FFFFFF",
-		        "backColor": "00AEFF",
+		      "backColor": "00AEFF",
 			    "trailWidth": 1.5,
 			    "trailLength": 7.5,
 			    "lifetime": 60,
-		        "speed": 2,
+		      "speed": 2,
 			    "splashDamageRadius": 30,
 			    "splashDamage": 125
 			}
