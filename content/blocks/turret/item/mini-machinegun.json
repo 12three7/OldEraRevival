@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "description": "This mini multi machinegun crazy at firerate, but less damage",
-    "localizedName": "Milti Machine Gun",
+    "localizedName": "Mini Machine Gun",
     "size": 2,
     "health": 455,
     "reload": 4,
