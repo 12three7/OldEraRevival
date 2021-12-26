@@ -1,0 +1,62 @@
+{
+    "type": "ItemTurret",
+    "description": "This mini multi machinegun crazy at firerate, but less damage",
+    "localizedName": "Milti Machine Gun",
+    "size": 2,
+    "health": 455,
+    "reload": 4,
+    "maxAmmo": 100,
+    "range": 256,
+    "inaccuracy": 2,
+    "shots": 1,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 1.5,
+    "restitution": 0.06,
+    "rotateSpeed": 2,
+    "shootSound": "shootBig",
+    "ammoUseEffect": "casing3Double",
+    "ammoTypes": {
+        "sand": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "reloadMultiplier": 10,
+            "width": 5,
+            "height": 8,
+            "damage": 1,
+            "splashDamage": 2,
+            "splashDamageRadius": 16,
+            "ammoMultiplier": 2,
+            "speed": 5
+        },
+        "copper": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 8,
+            "damage": 8,
+            "pierce": true,
+            "pierceCap": 3,
+            "ammoMultiplier": 3,
+            "speed": 5
+        },
+        "thorium": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 8,
+            "damage": 25,
+            "pierce": true,
+            "pierceCap": 3,
+            "ammoMultiplier": 3,
+            "speed": 5
+        }
+    },
+    "requirements": [
+        "copper/100",
+        "silicon/50",
+        "lead/120"
+    ],
+    "category": "turret",
+	"research": "meltdown"
+}
