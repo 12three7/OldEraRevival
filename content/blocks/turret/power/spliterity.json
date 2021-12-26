@@ -10,7 +10,7 @@
   "range": 168,
   "powerUse": 10,
   "shootSound": "laserblast",
-  "shootTypes": {
+  "shootType": {
     "type": "FlakBulletType",
     "sprite": "missile-large",
     "width": 12,
