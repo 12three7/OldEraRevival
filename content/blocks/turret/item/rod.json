@@ -1,0 +1,61 @@
+{
+    "type": "ItemTurret",
+    "description": "no description",
+    "localizedName": "Rod",
+    "size": 1,
+    "health": 225,
+    "reload": 4,
+    "maxAmmo": 215,
+    "range": 172,
+    "inaccuracy": 2,
+    "shots": 1,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 2,
+    "restitution": 0.1,
+    "rotateSpeed": 7,
+    "shootSound": "shootBig",
+    "ammoUseEffect": "casing3Double",
+    "ammoTypes": {
+        "copper": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "reloadMultiplier": 10,
+            "width": 2,
+            "height": 21,
+            "damage": 15,
+            "splashDamage": 7,
+            "splashDamageRadius": 32,
+            "ammoMultiplier": 2,
+            "speed": 6
+        },
+        "lead": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 2,
+            "height": 21,
+            "damage": 22,
+            "pierce": true,
+            "pierceCap": 4,
+            "ammoMultiplier": 3,
+            "speed": 7
+        },
+        "silicon": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 2,
+            "height": 25,
+            "damage": 35,
+            "pierce": true,
+            "pierceCap": 6,
+            "ammoMultiplier": 3,
+            "speed": 5
+        }
+    },
+    "requirements": [
+        "copper/75",
+        "lead/35"
+    ],
+    "category": "turret",
+	"research": "mikr"
+}
