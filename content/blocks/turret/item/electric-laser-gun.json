@@ -1,6 +1,6 @@
 {
   "localizedName": "Electric Laser Gun",
-  "description": "[cyan]A railgun that shoots very hurt laser.",
+  "description": "[yellow]A railgun that shoots very hurt laser.",
 	"type": "ItemTurret",
 	"size": 5,
 	"health": 4000,
@@ -28,8 +28,8 @@
         "sizeTo": 10,
         "strokeFrom": 4,
         "strokeTo": 0,
-        "colorFrom": "5F90EA",
-        "colorTo": "4B549E"
+        "colorFrom": "EDCF61",
+        "colorTo": "D9D1B4"
       },
       {
         "type": "WaveEffect",
@@ -38,8 +38,8 @@
         "sizeTo": 60,
         "strokeFrom": 4,
         "strokeTo": 0,
-        "colorFrom": "5F90EA",
-        "colorTo": "4B549E"
+        "colorFrom": "EDCF61",
+        "colorTo": "D9D1B4"
       }
     ]
   },
@@ -62,8 +62,8 @@
 			"lightningDelay": 1.1,
 			"lightningAngleRand": 30,
 			"lightningSpacing": 50,
-		  "colorFrom": "5F90EA",
-      "colorTo": "4B549E"
+		  "colorFrom": "EDCF61",
+      "colorTo": "D9D1B4"
 			"hitEffect" : {
         "type": "WaveEffect",
         "lifetime": 40,
@@ -71,8 +71,8 @@
         "sizeTo": 104,
         "strokeFrom": 4,
         "strokeTo": 0,
-        "colorFrom": "5F90EA",
-        "colorTo": "4B549E"
+        "colorFrom": "EDCF61",
+        "colorTo": "D9D1B4"
       }
     }
   },
@@ -84,7 +84,7 @@
     "diamond-alloy/300",
     "silicon/1000",
     "titanium/3000",
-    "surge-alloy/700",
+    "surge-alloy/500",
     "metaglass/1200"
 	],
 	"category": "turret",
