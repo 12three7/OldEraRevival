@@ -1,0 +1,61 @@
+{
+    "type": "ItemTurret",
+    "description": "T1E4, T = turret, 1 = item, E = early game, 4 = turret number 4.",
+    "localizedName": "T1E4",
+    "size": 1,
+    "health": 285,
+    "reload": 18,
+    "maxAmmo": 200,
+    "range": 240,
+    "inaccuracy": 0,
+    "shots": 1,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 1.5,
+    "restitution": 0.06,
+    "rotateSpeed": 20,
+    "shootSound": "shootBig",
+    "ammoUseEffect": "casing3Double",
+    "ammoTypes": {
+        "lead": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 8,
+            "damage": 120,
+            "splashDamage": 2,
+            "splashDamageRadius": 16,
+            "ammoMultiplier": 2,
+            "speed": 5
+        },
+        "scrap": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 6,
+            "damage": 240,
+            "pierce": true,
+            "pierceCap": 3,
+            "ammoMultiplier": 2,
+            "speed": 5
+        },
+        "plastanium": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 8,
+            "damage": 285,
+            "pierce": true,
+            "pierceCap": 3,
+            "ammoMultiplier": 3,
+            "speed": 5
+        }
+    },
+    "requirements": [
+        "copper/125",
+        "silicon/70",
+        "titanium/45"
+    ],
+    "category": "turret",
+	"research": "scatter"
+}
