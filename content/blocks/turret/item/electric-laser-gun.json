@@ -1,6 +1,6 @@
 {
   "localizedName": "Electric Laser Gun",
-  "description": "[cyan]A railgun that shoots very hurt laser.",
+  "description": "[yellow]A railgun that shoots very hurt laser.",
 	"type": "ItemTurret",
 	"size": 5,
 	"health": 4000,
