@@ -4,7 +4,7 @@
     "description": "no desc",
     "category": "distribution",
     "health": 100,
-    "speed": 0.75,
+    "speed": 0.07,
     "research": "conveyor",
     "requirements": [
         { "item": "copper", "amount": 1 },
