@@ -1,4 +1,6 @@
 {
     "type": "OreBlock",
     "itemDrop": "metaglass-shard"
+    "variants": 3,
+    "playerUnmineable": true
 }
