@@ -1,0 +1,71 @@
+{
+    "type": "ItemTurret",
+    "description": "chain turret (from mindustry classic), but mini.",
+    "localizedName": "Chain",
+    "size": 1,
+    "health": 285,
+    "reload": 144,
+    "maxAmmo": 200,
+    "range": 240,
+    "inaccuracy": 2,
+    "shots": 1,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 2,
+    "restitution": 0.01,
+    "rotateSpeed": 20,
+    "shootSound": "shootBig",
+    "ammoTypes": {
+        "lead": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 8,
+            "damage": 18,
+            "splashDamage": 2,
+            "splashDamageRadius": 16,
+            "ammoMultiplier": 2,
+            "speed": 6
+        },
+        "scrap": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 6,
+            "damage": 3,
+            "pierce": true,
+            "pierceCap": 3,
+            "ammoMultiplier": 2,
+            "speed": 6
+        },
+        "plastanium": {
+            "shootEffect": "shootBig",
+            "lifetime": 77,
+            "width": 5,
+            "height": 8,
+            "damage": 36,
+            "pierce": true,
+            "pierceCap": 3,
+            "ammoMultiplier": 3,
+            "speed": 6
+        },
+        "dense-alloy": {
+            "shootEffect": "shootBig",
+            "lifetime": 88,
+            "width": 6,
+            "height": 9,
+            "damage": 20,
+            "pierce": true,
+            "pierceCap": 3,
+            "ammoMultiplier": 3,
+            "speed": 6
+        }
+    },
+    "requirements": [
+        "copper/125",
+        "silicon/70",
+        "titanium/45"
+    ],
+    "category": "turret",
+	"research": "scatter"
+}
