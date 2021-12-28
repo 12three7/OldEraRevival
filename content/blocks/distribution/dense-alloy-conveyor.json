@@ -1,0 +1,13 @@
+{
+    "type": "Conveyor",
+    "name": "Dense Alloy Conveyor",
+    "description": "no desc",
+    "category": "distribution",
+    "health": 100,
+    "speed": 0.75,
+    "research": "conveyor",
+    "requirements": [
+        { "item": "copper", "amount": 1 },
+        { "item": "dense-alloy", "amount": 1 }
+    ]
+}
