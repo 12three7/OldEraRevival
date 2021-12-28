@@ -26,11 +26,10 @@
     },
     "requirements": [
         "copper/60",
-        "lead/90",
-        "graphite/30",
-        "silicon/30"
+        "lead/35",
+        "graphite/15",
     ]
     "category": "crafting",
-    "research": "silicon-smelter",
+    "research": "graphite-press",
     "outputItem": "dense-alloy/1"
 }
