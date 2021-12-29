@@ -29,7 +29,7 @@
             "bullet": {
                 "type": "BasicBulletType",
                 "width": 10,
-                "height": 10,
+                "height": 17,
                 "shootEffect": "shootBig",
                 "lifetime": 120,
                 "speed": 2,
@@ -40,7 +40,24 @@
                 "trailWidth": 4.5,
                 "trailLength": 29,
                 "hitEffect": "blastExplosion",
-                "despawnEffect": "blastExplosion"
+                "despawnEffect": "blastExplosion",
+                "fragBullets": 1,
+                "fragBullet": {
+                    "type": "BasicBulletType",
+                    "shootEffect": "shootBig",
+                    "width": 10,
+                    "height": 10,
+                    "lifetime": 60,
+                    "speed": 5,
+                    "damage": 20,
+                    "splashDamage": 20,
+                    "splashDamageRadius": 20,
+                    "trailColor": "ffeac9",
+                    "trailWidth": 4.5,
+                    "trailLength": 45,
+                    "hitEffect": "blastExplosion",
+                    "despawnEffect": "blastExplosion"
+                }
             }
         },
         {
@@ -67,6 +84,7 @@
         {
             "name": "meltdowon",
             "reload": 600,
+            "shake": 2,
             "inaccuracy": 0,
             "x": 0,
             "y": 35,
