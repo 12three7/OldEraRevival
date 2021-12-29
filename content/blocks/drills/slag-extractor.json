@@ -1,0 +1,20 @@
+{
+  "type": "Fracker",
+  "name": "Slag Extractor",
+  "description": "no desc",
+  "size": 2,
+  "liquidCapacity": 224,
+  "result": "slag",
+  "pumpAmount": 3,
+  "consumes": {
+    "power": 14
+  },
+  "category": "production",
+  "research": "water-extractor",
+  "requirements": [
+    "copper/825",
+    "silicon/300",
+    "metaglass/245",
+    "dense-alloy/65",
+  ]
+}
