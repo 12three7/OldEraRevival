@@ -74,11 +74,11 @@
 
     "shake": 1,
 
-    "rotate": true,
+    "rotate": false,
 
     "shootSound": "laser",
 
-    "rotateSpeed": 10,
+    "rotateSpeed": 0,
 
     "shootCone": 45,
 
@@ -92,7 +92,7 @@
 
               "damage": 140,
 
-              "status": "blasted",
+              "status": "shocked",
 
               "statusDuration": 15,
 
@@ -128,7 +128,7 @@
 
             "max": 500,
 
-            "cooldown": 20
+            "cooldown": 600
 
             }
 
