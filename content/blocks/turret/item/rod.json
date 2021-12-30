@@ -19,7 +19,7 @@
     "ammoTypes": {
         "copper": {
             "shootEffect": "shootBig",
-            "lifetime": 77,
+            "lifetime": 37,
             "reloadMultiplier": 2,
             "width": 3,
             "height": 18,
@@ -31,7 +31,7 @@
         },
         "lead": {
             "shootEffect": "shootBig",
-            "lifetime": 77,
+            "lifetime": 37,
             "width": 3,
             "height": 18,
             "damage": 22,
@@ -42,7 +42,7 @@
         },
         "silicon": {
             "shootEffect": "shootBig",
-            "lifetime": 77,
+            "lifetime": 37,
             "width": 3,
             "height": 20,
             "damage": 35,
