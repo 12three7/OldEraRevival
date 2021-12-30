@@ -1,8 +1,8 @@
 {
-    "displayName": "Old Era Revival [DEV]",
-    "name": "oer-dev",
+    "displayName": "Old Era Revival",
+    "name": "oer",
     "author": "ExplerHD, 1237",
     "description":"A mod that added a new content like sectors, turrets, units, item, and more. Check GitHub for source.",
     "minGameVersion": "135",
-    "version": "0.5"
+    "version": "0.7",
 }
