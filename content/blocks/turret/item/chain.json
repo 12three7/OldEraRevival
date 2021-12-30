@@ -16,7 +16,7 @@
     "rotateSpeed": 20,
     "shootSound": "shootBig",
     "ammoTypes": {
-        ”pyratite": "standardIncendiary",
+        "pyratite": "standardIncendiary",
         "lead": {
             "shootEffect": "shootBig",
             "lifetime": 30,
