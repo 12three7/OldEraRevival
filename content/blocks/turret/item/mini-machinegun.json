@@ -4,7 +4,7 @@
     "localizedName": "Mini Machine Gun",
     "size": 2,
     "health": 455,
-    "reload": 4,
+    "reload": 2,
     "maxAmmo": 100,
     "range": 256,
     "inaccuracy": 2,
@@ -19,7 +19,7 @@
     "ammoTypes": {
         "sand": {
             "shootEffect": "shootBig",
-            "lifetime": 77,
+            "lifetime": 40,
             "reloadMultiplier": 10,
             "width": 5,
             "height": 8,
@@ -31,7 +31,7 @@
         },
         "copper": {
             "shootEffect": "shootBig",
-            "lifetime": 77,
+            "lifetime": 40,
             "width": 5,
             "height": 8,
             "damage": 8,
@@ -42,7 +42,7 @@
         },
         "thorium": {
             "shootEffect": "shootBig",
-            "lifetime": 77,
+            "lifetime": 40,
             "width": 5,
             "height": 8,
             "damage": 25,
