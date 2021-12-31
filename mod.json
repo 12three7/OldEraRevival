@@ -2,7 +2,7 @@
     "displayName": "Old Era Revival",
     "name": "oer",
     "author": "ExplerHD, 1237",
-    "description":"A mod that added a new content like sectors, turrets, units, item, and more. Check GitHub for source.",
+    "description":"A mod that added a new content like sectors, turrets, units, item, and more.\n\nChangelogs :\n- Added Chain, Rod, Mini Machinegun, Spliterity\n- Buffed Multi Machinegun, so he can shoot 3\n-Reworked Ocray\n- Fix Verticalizer rotate their shoot\n- Gaving Blocks description\n- Added Slag Extractor\n- Rebalanced every blocks\n- Added soundtrack\n\nCheck GitHub for source. This mod size is around 35MB",
     "minGameVersion": "135",
     "version": "0.7",
 }
