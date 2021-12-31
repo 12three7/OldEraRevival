@@ -5,7 +5,7 @@
   "size": 2,
   "liquidCapacity": 224,
   "result": "slag",
-  "pumpAmount": 3,
+  "pumpAmount": 1,
   "consumes": {
     "power": 14
   },
