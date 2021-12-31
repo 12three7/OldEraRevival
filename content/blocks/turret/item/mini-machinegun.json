@@ -13,13 +13,13 @@
     "targetGround": true,
     "recoilAmount": 1.5,
     "restitution": 0.06,
-    "rotateSpeed": 2,
+    "rotateSpeed": 5,
     "shootSound": "shootBig",
     "ammoUseEffect": "casing3Double",
     "ammoTypes": {
         "sand": {
             "shootEffect": "shootBig",
-            "lifetime": 40,
+            "lifetime": 50,
             "reloadMultiplier": 10,
             "width": 5,
             "height": 8,
@@ -31,7 +31,8 @@
         },
         "copper": {
             "shootEffect": "shootBig",
-            "lifetime": 40,
+            "lifetime": 50,
+            "reloadMultiplier": 2,
             "width": 5,
             "height": 8,
             "damage": 8,
@@ -42,13 +43,14 @@
         },
         "thorium": {
             "shootEffect": "shootBig",
-            "lifetime": 40,
+            "lifetime": 50,
             "width": 5,
             "height": 8,
             "damage": 25,
             "pierce": true,
             "pierceCap": 3,
-            "ammoMultiplier": 3,
+            "ammoMultiplier": 4,
+            "reloadMultiplier": 2,
             "speed": 5
         }
     },
