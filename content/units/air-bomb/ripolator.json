@@ -52,7 +52,7 @@
                 "width": 30,
                 "height": 30,
                 "type": "ArtilleryBulletType",
-                "lifetime": 150,
+                "lifetime": 120,
                 "speed": 5,
                 "buildingDamageMultiplier": 2,
                 "hitEffect": "reactorExplosion",
