@@ -1,7 +1,7 @@
 {
   "type": "Fracker",
   "name": "Slag Extractor",
-  "description": "no desc",
+  "description": "Extract slag from the underground",
   "size": 2,
   "liquidCapacity": 224,
   "result": "slag",
