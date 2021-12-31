@@ -1,7 +1,7 @@
 {
     "type": "Conveyor",
     "name": "Dense Alloy Conveyor",
-    "description": "no desc",
+    "description": "Deliver items a little faster than a regular conveyor",
     "category": "distribution",
     "health": 100,
     "speed": 0.06,
