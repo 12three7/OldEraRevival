@@ -28,7 +28,7 @@
     "lifetime": 16,
     "drawSize": 200,
     "collidesAir": false,
-    "length": 173,
+    "length": 123,
     "damage": 70
   }
   "requirements": [
