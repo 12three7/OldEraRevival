@@ -1,6 +1,6 @@
 {
-  "localizedName": "Lava Generator",
-  "description": "Turns lava heat into power.",
+  "localizedName": "Slag Generator",
+  "description": "Turns slag heat into power.",
   "size": 3,
   "type": "BurnerGenerator",
   "consumes": {
