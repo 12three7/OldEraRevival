@@ -13,16 +13,16 @@
   "rotateSpeed": 10,
   "inaccuracy": 0,
   "ammoTypes": {
-    "coal": "basicFlame"
-    "pyratite": "pyraFlame"
-    "surge-alloy": "missileSurge"
+    "coal": "basicFlame",
+    "pyratite": "pyraFlame",
+    "surge-alloy": "missileSurge",
     "blast-compound": "missileExplosive"
-    },
+  },
   "requirements": [
     "dense-alloy/100",
     "copper/250",
     "lead/127",
-    "titanium/75",
+    "titanium/75"
   ],
   "category": "turret",
   "research": "scorch"
