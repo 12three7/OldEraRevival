@@ -17,7 +17,7 @@
     "silicon": "artilleryHoming",
     "pyratite": "artilleryIncendiary",
     "blast-compound": "artilleryExplosive",
-    'plastanium': "artilleryPlastic"
+    "plastanium": "artilleryPlastic"
     "surge-alloy": "missileSurge"
   },
   "requirements": [
