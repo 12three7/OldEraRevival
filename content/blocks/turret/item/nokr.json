@@ -1,0 +1,30 @@
+{
+  "localizedName": "Nokr",
+  "description": "no description",
+  "size": 2,
+  "type": "ItemTurret",
+  "spread": 4,
+  "shots": 2,
+  "shootCone": 15,
+  "reload": 4,
+  "range": 300,
+  "restitution": 0.03,
+  "alternate": true,
+  "rotateSpeed": 10,
+  "inaccuracy": 0,
+  "ammoTypes": {
+    "coal": "basicFlame"
+    "pyratite": "pyraFlame"
+    "surge-alloy": "missileSurge"
+    "blast-compound": "missileExplosive"
+    }
+  },
+  "requirements": [
+    "dense-alloy/100",
+    "copper/250",
+    "lead/127",
+    "titanium/75",
+  ],
+  "category": "turret",
+  "research": "scorch"
+}
