@@ -5,18 +5,20 @@
   "type": "ItemTurret",
   "spread": 4,
   "shots": 2,
-  "shootCone": 15,
+  "shootCone": 20,
   "reload": 4,
-  "range": 300,
+  "range": 320,
   "restitution": 0.03,
   "alternate": true,
   "rotateSpeed": 10,
   "inaccuracy": 0,
   "ammoTypes": {
-    "coal": "basicFlame",
-    "pyratite": "pyraFlame",
-    "surge-alloy": "missileSurge",
-    "blast-compound": "missileExplosive"
+    "graphite": "artilleryDense",
+    "silicon": "artilleryHoming",
+    "pyratite": "artilleryIncendiary",
+    "blast-compound": "artilleryExplosive",
+    'plastanium': "artilleryPlastic"
+    "surge-alloy": "missileSurge"
   },
   "requirements": [
     "dense-alloy/100",
@@ -25,5 +27,5 @@
     "titanium/75"
   ],
   "category": "turret",
-  "research": "scorch"
+  "research": "ripple"
 }
