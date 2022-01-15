@@ -17,8 +17,7 @@
     "pyratite": "pyraFlame"
     "surge-alloy": "missileSurge"
     "blast-compound": "missileExplosive"
-    }
-  },
+    },
   "requirements": [
     "dense-alloy/100",
     "copper/250",
