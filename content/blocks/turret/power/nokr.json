@@ -1,0 +1,34 @@
+{
+  "localizedName": "Nokr",
+  "description": "no desc.",
+  "size": 1,
+  "type": "PowerTurret",
+  "spread": 4,
+  "shots": 2,
+  "shootCone": 15,
+  "reload": 10,
+  "range": 110,
+  "restitution": 0.03,
+  "alternate": true,
+  "rotateSpeed": 10,
+  "inaccuracy": 0,
+  "ammoTypes": {
+    "dense-alloy": {
+      "type": "ContinuousLaserShootType",
+      "damage": 157,
+      "length": 200,
+      "hitSize": 4,
+      "drawSize": 400,
+      "colors": [ "F58551", "FFAF8A", "FFFFFF" ]
+    }
+  },
+  "requirements": [
+    "titanium/200",
+    "copper/540",
+    "lead/325",
+    "thorium/90",
+    "silicon/135",
+  ],
+  "category": "turret",
+  "research": "meltdown"
+}
