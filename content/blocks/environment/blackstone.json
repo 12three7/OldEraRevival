@@ -1,0 +1,7 @@
+{
+  "name": "Blackstone"
+  "type": "Floor",
+  "variants": 3,
+  "wall": "blackstone-wall",
+  "playerUnmineable": true
+}
