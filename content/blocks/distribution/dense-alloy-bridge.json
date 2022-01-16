@@ -1,11 +1,11 @@
 {
-  "type": "BufferedItemBridge", 
+  "type": "ItemBridge", 
   "name": "Dense Alloy Bridge", 
+  "transportTime": 2.5,
   "description": "no desc", 
   "health": 30, 
   "range": 6, 
   "speed": 20, 
-  "bufferCapacity": 8, 
   "requirements": [
     "dense-alloy/5"
     "lead/2"
