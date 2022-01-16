@@ -1,0 +1,16 @@
+{
+  "type": "BufferedItemBridge", 
+  "name": "Dense Alloy Bridge", 
+  "description": "no desc", 
+  "health": 30, 
+  "range": 6, 
+  "speed": 20, 
+  "bufferCapacity": 8, 
+  "requirements": [
+    "dense-alloy/5"
+    "lead/2"
+    ], 
+  "research": "dense-alloy-conveyor", 
+  "category": "distribution", 
+  "size": 1
+}
